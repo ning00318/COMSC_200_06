@@ -3,10 +3,12 @@
 #include "Card.h"
 using namespace std;
 
+// Comment: The constructor receives two parameters for a card, face and suit.
 Card::Card(int faceNum, int suitNum)
     : face(faceNum), suit(suitNum)
 {
 }
+
 
 string Card::staticArrayFace(int face)
 {
