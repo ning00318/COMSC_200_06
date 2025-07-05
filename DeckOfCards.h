@@ -8,10 +8,10 @@ class DeckOfCards
 public:
     DeckOfCards();
     void shuffle();
-    int dealCard();
+    Card dealCard();
     bool moreCards();
 private:
-    std::vector<Card> deck();
+    std::vector<Card> deck;
     int currentCard;
 };
 
