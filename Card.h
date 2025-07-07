@@ -2,6 +2,7 @@
 #define CARD_H
 #include<string>
 
+// Comment 1: class Card focus on the type (face & suit) of one card.
 class Card
 {
 public:
